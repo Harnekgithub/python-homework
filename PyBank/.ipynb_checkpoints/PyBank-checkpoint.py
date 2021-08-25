@@ -67,7 +67,7 @@ with open(csvpath, newline="") as csvfile:
     #in profit divided by number of months to two decimal places
     average_pnl = round(sum(change_in_profit)/len(change_in_profit), 2)
     
-    #print the report
+    #print the report in a text file
     print("Financial Analysis")
     print("---------------------------------------------------")
     print(f"Total number of months is the data set: {num_of_months}")
